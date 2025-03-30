@@ -1,0 +1,35 @@
+{
+  "name": "firststep-ai",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "@headlessui/react": "^2.2.0",
+    "@reduxjs/toolkit": "^2.5.0",
+    "canvas-confetti": "^1.9.3",
+    "clsx": "^2.1.1",
+    "firebase": "^11.2.0",
+    "lucide-react": "^0.473.0",
+    "markdown-to-jsx": "^7.7.3",
+    "next": "15.1.5",
+    "prismjs": "^1.29.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-hot-toast": "^2.5.1",
+    "react-redux": "^9.2.0",
+    "tailwind-merge": "^2.6.0"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "eslint": "^9",
+    "eslint-config-next": "15.1.5",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
+  }
+}
